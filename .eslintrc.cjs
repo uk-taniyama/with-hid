@@ -15,7 +15,7 @@ module.exports = {
     },
     ecmaVersion: 13,
     sourceType: 'module',
-    project: ['./tsconfig.json'],
+    project: ['./tsconfig.eslint.json'],
   },
   plugins: [
     'unused-imports',

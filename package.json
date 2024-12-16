@@ -1,6 +1,6 @@
 {
   "name": "with-hid",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "'withHid' simplifies working with 'node-hid' by automating device connection and disconnection.",
   "keywords": [
     "hid",
@@ -8,14 +8,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uk-taniyama/hid-promise.git"
+    "url": "git+https://github.com/uk-taniyama/with-promise.git"
   },
   "author": "uk-taniyama",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uk-taniyama/hid-promise/issues"
+    "url": "https://github.com/uk-taniyama/with-promise/issues"
   },
-  "homepage": "https://github.com/uk-taniyama/hid-promise#readme",
+  "homepage": "https://github.com/uk-taniyama/with-promise#readme",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
