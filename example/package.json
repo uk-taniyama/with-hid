@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "example",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "uk-taniyama",
+  "license": "Unlicense",
+  "scripts": {
+    "start": "vite-node index.ts"
+  },
+  "dependencies": {
+    "hid-promise": "^1.0.0-alpha.1"
+  },
+  "devDependencies": {}
+}

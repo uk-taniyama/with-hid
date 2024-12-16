@@ -1,0 +1,71 @@
+{
+  "name": "with-hid",
+  "version": "1.0.0-alpha.1",
+  "description": "'withHid' simplifies working with 'node-hid' by automating device connection and disconnection.",
+  "keywords": [
+    "hid",
+    "promise"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uk-taniyama/hid-promise.git"
+  },
+  "author": "uk-taniyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uk-taniyama/hid-promise/issues"
+  },
+  "homepage": "https://github.com/uk-taniyama/hid-promise#readme",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "npx tsup",
+    "lint": "eslint src",
+    "lint-fix": "eslint --fix src",
+    "test": "vitest",
+    "prepare": "husky"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "lint-staged": {
+    "*.ts": "eslint --fix"
+  },
+  "dependencies": {
+    "debug": "^4.4.0",
+    "lodash-es": "^4.17.21",
+    "node-hid": "^3.1.2"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.48.1",
+    "@types/debug": "^4.1.12",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.2.0",
+    "eslint-plugin-unused-imports": "^3.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "tsup": "^8.3.5",
+    "vite-node": "^2.1.8",
+    "vitest": "^2.1.8"
+  }
+}
