@@ -1,6 +1,6 @@
 {
   "name": "with-hid",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "'withHid' simplifies working with 'node-hid' by automating device connection and disconnection.",
   "keywords": [
     "hid",
